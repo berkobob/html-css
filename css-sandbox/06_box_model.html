@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Box Model / Margin and Padding</title>
+
+        <style>
+            /* CSS Reset */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .box {
+                background: f4f4f4;
+                border: 2px #777 solid;
+                width: 500px;
+
+                /* Padding on all sides */
+                padding: 20px;
+
+                /* Margin on all sides */
+                margin: 20px;
+
+                /* Padding per side */
+                padding-top: 10px;
+                padding-right: 20px;
+                padding-bottom: 30px;
+                padding-left: 40px;
+
+                /* Padding short hand = top, right, bottom, left */
+                padding: 40px 30px 20px 10px;
+
+                /* Padding abbreviation top/bottom left/right */
+                padding: 50px 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <h3>Box One</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+                aliquam ea. Praesentium quam sit saepe impedit. Quia nostrum
+                ipsum reprehenderit cumque ipsa dolor porro eveniet numquam
+                explicabo. Voluptas, cupclassitate repellat?
+            </p>
+        </div>
+        <div class="box">
+            <h3>Box Two</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+                aliquam ea. Praesentium quam sit saepe impedit. Quia nostrum
+                ipsum reprehenderit cumque ipsa dolor porro eveniet numquam
+                explicabo. Voluptas, cupiditate repellat?
+            </p>
+        </div>
+    </body>
+</html>

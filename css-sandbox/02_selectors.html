@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>CSS Selectors</title>
+
+        <style>
+            /* . is for classes */
+            .primary-heading {
+                color: blue;
+            }
+
+            /* # is for ids  */
+            #welcome {
+                background-color: grey;
+            }
+
+            /* Multiple Selectors */
+            #welcome,
+            #about {
+                border: 1px solid #ccc;
+                padding: 10px;
+                margin-bottom: 5px;
+            }
+
+            /* Element Selectors */
+            body {
+                background-color: #333333;
+            }
+
+            /* Nested Selectors */
+            #welcome p {
+                font-size: 20px;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h2 class="primary-heading" id="welcome">Welcome</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum
+                similique asperiores totam? Explicabo, perspiciatis sunt, neque
+                quam sapiente voluptatum quia suscipit nostrum animi odit aut in
+                illo, mollitia voluptatibus tenetur!
+            </p>
+        </div>
+        <div>
+            <h2 id="about">About</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Veritatis eligendi voluptatibus tempore nulla enim a, amet
+                beatae optio dicta obcaecati aperiam, qui est voluptatum quasi
+                iure architecto ipsam sed quia consequuntur ab voluptate eos
+                aliquid dolore. Et officia totam est recusandae nesciunt maxime
+                tenetur ratione possimus impedit saepe eveniet quod autem illo
+                molestias provident a, odio corporis cumque ab aliquam odit.
+                Minima est ad, quia odio itaque, autem consequuntur eius fugiat
+                esse quaerat optio culpa facilis illum quisquam non laborum
+                excepturi temporibus officia voluptatibus omnis laudantium
+                doloremque aliquam. Nobis debitis doloribus illo consequuntur
+                magnam! Quidem in ut asperiores fugiat voluptatum?
+            </p>
+        </div>
+    </body>
+</html>
